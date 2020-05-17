@@ -1,0 +1,75 @@
+/* general */
+html{
+  scroll-padding-top: 10vh;
+}
+.debug{
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+.container{
+  padding-top: 10vh;
+  height: 90vh;
+}
+
+p, h1{
+  text-align: center;
+  margin: 1% 20%;
+}
+
+/* navbar */
+nav.navbar{
+  height: 10vh;
+}
+
+/* 關於我們 */
+#logo{
+  display: block;
+  margin: 30px auto;
+}
+
+.send_btn{
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 1.1em;
+}
+
+/* 服務介紹 */
+.flip-card-front, .flip-card-back{
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+}
+
+.case_img{
+  background-image: url(./150x200.png);
+  width: 50%;
+  height: 100%;
+}
+.case_txt{
+  width: 40%;
+  margin: 0 auto;
+}
+
+/* 用戶回饋 */
+.feedback>p{
+  margin: 0;
+}
+.feedback_img{
+  background-image: url(./50x50.png);
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin: 10px 0 10px -20px;
+  border-radius: 50%;
+}
+.progress-bar{
+  background-color: rgb(252, 180, 36);
+}
+/* 聯絡我們 */
+#contact_us>div>div>img{
+  display: block;
+  margin: 0 auto;
+}
