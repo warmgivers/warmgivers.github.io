@@ -1,3 +1,4 @@
+.gitignore
 前端讀書會大綱.txt
 期中報告0405.pdf
 giftu.zip
@@ -6,3 +7,7 @@ Prototype-20200513T133510z-001.zip
 Web Design 心禮系.xd
 Prototype
 心禮系網頁src/learning note.txt
+心禮系網頁src/修改詢問內容.txt
+心禮系網頁src/fonts/*zip
+心禮系網頁src/fonts/*bz2
+心禮系網頁src/fonts/NotoSansCJKtc-hinted/README
