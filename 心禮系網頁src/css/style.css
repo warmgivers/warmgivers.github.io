@@ -1,6 +1,6 @@
 @font-face{
   font-family: NotoSansCJKtc-Medium;
-  src: url(./fonts/NotoSansCJKtc-hinted/NotoSansCJKtc-Medium.otf);
+  src: url(../fonts/NotoSansCJKtc-hinted/NotoSansCJKtc-Medium.otf);
 }
 /* general */
 :root{
@@ -113,7 +113,7 @@ nav.navbar{
 /* 關於我們 */
 .send_btn{
   width: 100px;
-  height: 40px;
+  height: 30px;
   border-radius: 20px;
   font-size: 1.1em;
   margin-top: 20px;
@@ -171,7 +171,7 @@ nav.navbar{
   border: 1px solid black;
 }
 .service_list_img{
-  background-image: url(./img/480x150.png); background-position: center; 
+  background-image: url(../img/480x150.png); background-position: center; 
   background-repeat: no-repeat;
   background-size: cover;
   height: 150px;
