@@ -1,8 +1,14 @@
+/* .debug{
+  border: 1px solid blue;
+  box-sizing: border-box;
+} */
+
+/* general */
+
 @font-face{
   font-family: NotoSansCJKtc-Medium;
   src: url(../fonts/NotoSansCJKtc-hinted/NotoSansCJKtc-Medium.otf);
 }
-/* general */
 :root{
   /* colors */
   --gift-blue: #272C42;
@@ -21,10 +27,7 @@ body{
 }
 button{border: none;}
 button:hover{box-shadow: 3px 2px 5px black;}
-/* .debug{
-  border: 1px solid blue;
-  box-sizing: border-box;
-} */
+
 
 .container{
   padding-top: 10vh;
@@ -82,7 +85,10 @@ nav.navbar{
   height: 70%;
   line-height: 1.3rem;
 }
-
+.btn_link, .btn_link:hover{
+  color: black;
+  text-decoration: none;
+}
 @media (max-width : 768px){
   nav.navbar, #navbar_logo{
     height: 10vh;
@@ -100,9 +106,11 @@ nav.navbar{
   #send_btn{
     border: none;
     background-color: transparent;
-    color: lemonchiffon;
     padding-left: 0;
     margin-left: 0;
+  }
+  #send_btn>a{
+    color: lemonchiffon;
   }
   .nav-item{padding-left: 10px;}
   .nav-item:hover{
@@ -176,6 +184,34 @@ nav.navbar{
   background-size: cover;
   height: 150px;
 }
+@media (max-width : 576px){
+  .service_list_txt{
+    padding: 30px 0;
+  }
+}
+
+
+.learn_more{
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  background-color: transparent;
+}
+.learn_more:after{
+  content: '';
+  display: block;
+  margin-top: 1px;
+  border-top: 1px solid black;
+}
+
+.learn_more:hover{
+  box-shadow: none;
+  background-color: var(--gift-blue);
+  color: white;
+  transition: all ease .3s;
+}
+
+
 
 /* 用戶回饋 */
 .feedback{
@@ -186,7 +222,9 @@ nav.navbar{
 .feedback_txt{
   margin: 0;
   height: auto;
-  border: 1px solid red; 
+  /* border: 1px solid red;  */
+  background-color: white;
+  color: black;
   border-radius: 10px; 
   padding: 10px 20px 10px 50px;
 }
@@ -197,6 +235,8 @@ nav.navbar{
   z-index: 10;
   margin-right: -25px;
   border-radius: 50%;
+  border: 1px solid rgb(70, 69, 69);
+  box-sizing: border-box;
   transform-origin: center;
 }
 .progress-bar{
@@ -230,4 +270,9 @@ nav.navbar{
   #contact_txt{ order: 2;}
 }
 
-
+footer{
+  text-align: center; 
+  margin-top: 50px; 
+  margin-bottom: 20px;
+  color: grey;
+}
