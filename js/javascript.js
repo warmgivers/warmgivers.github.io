@@ -41,7 +41,7 @@ $(()=>{
 // show the popup details of different services
 const service = [{
   service_name:'匿名傳情',
-  img_src: "../img/popup1_img.png",
+  img_src: "./img/popup1_img.png",
   url: "https://www.surveycake.com/s/Al2xa",
   intro: [
     "匿名服務是一個神秘又有吸引力的傳情方式，雖然使用人數不如卡片，若可以運用想像力，也能夠達成意想不到的效果！<br><br> 在此服務中，您可以像使用電子郵件一樣，打下想跟對方說的話，我們會為您匿名寄送。除此之外，您也可以善用這個服務，傳達平常不敢開口說出的話、詢問對方想要的禮物、或者是一個掛念在心中許久的道歉。", 
@@ -50,7 +50,7 @@ const service = [{
   ]
 },  {
   service_name: '客製化卡片',
-  img_src: "../img/popup2_img.png",
+  img_src: "./img/popup2_img.png",
   url: "https://www.surveycake.com/s/6QMz7",
   intro: [
     "根據統計，一封精挑細選的客製化卡片是最能表達心意的形式，也是目前最多客人選擇使用的服務。<br><br>在此服務中，您可以上傳喜歡的照片，我們會將這份共同回憶製作成卡片封面。內容部分，則可以分別選擇電腦字型、自己手寫拍照上傳、或是專人代寫的方式呈現卡片文字，根據不同需求傳遞您的心意。", 
