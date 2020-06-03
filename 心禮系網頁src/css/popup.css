@@ -28,8 +28,7 @@
   width: 340px;
   margin: auto;
 }
-#popup:before{
-  content: '服務名稱';
+#popup_name{
   background-color:rgb(58, 66, 102);
   display: block;
   color: white;
@@ -76,7 +75,7 @@
   #popup{
     width: 90%;
   }
-  #popup:before{
+  #popup_name{
     width: 40vw;
   }
   #popup_img{
